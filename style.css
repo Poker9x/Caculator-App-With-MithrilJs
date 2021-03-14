@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+
+body {
+  margin: 0;
+  font-size: 20px;
+}
+.app {
+  max-width: 400px;
+  margin: 20px;
+  border-radius: 20px
+}
+.app .head {
+  background : #333333;
+  border-radius: 20px 20px 0px 0px;
+  padding: 25px
+}
+.app .head .screen {
+  background : #CCFFFF;
+  padding: 15px 15px 0px 15px;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Ravi Prakash', cursive;
+  min-height: 50px;
+  overflow-x: auto
+}
+.app .foot {
+  background : #555555;
+  border-radius: 0px 0px 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  padding: 25px;
+}
+.app .foot .button {
+  width : 100%;
+  height: 50px;
+  background : white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 900
+}
+.app .foot .equal {
+  background : #FFCC66;
+  color : white;
+  grid-column : 3/5
+}
